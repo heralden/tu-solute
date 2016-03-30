@@ -1,0 +1,45 @@
+@import "bootstrap/bootstrap.less";
+
+@primarylight: hsl(200, 50%, 80%);
+@primarydark: hsl(200, 25%, 60%);
+@text-light: hsl(0, 0%, 0%);
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 600%;
+}
+
+h2 {
+  font-size: 300%;
+}
+
+body {
+  background-color: @primarylight;
+}
+
+.container .text-muted {
+  color: @text-light;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: @primarydark;
+  .container .text-muted {
+    margin: 20px 0;
+  }
+}

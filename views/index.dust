@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Er det sol ute?</title>
+
+    <link rel="stylesheet" href="/stylesheets/custom.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+
+    <div class="text-center vertical-center" id="container">
+      <div class="container" id="main">
+        <h1><b>Er det sol ute?</b></h1>
+        <p><span id="status">Leter etter deg...</span></p>
+      </div>
+    </div>
+
+    <div class="container" style="display: none;" id="weather">
+      <div class="row">
+        <div class="col-sm-4" id="w1"></div>
+        <div class="col-sm-4" id="w2"></div>
+        <div class="col-sm-4" id="w3"></div>
+      </div>
+    </div>
+
+    <footer class="footer text-center">
+      <div class="container">
+        <p class="text-muted">Værvarsel fra Yr levert av Meteorologisk institutt og NRK<span id="footer"></span></p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/javascripts/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="/javascripts/url.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/javascripts/geoPosition.js" charset="utf-8"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/javascripts/io_client.js" charset="utf-8"></script>
+
+  </body>
+
+</html>

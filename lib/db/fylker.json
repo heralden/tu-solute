@@ -1,0 +1,26 @@
+{
+  "county": [
+    { "name": "Østfold", "code": 01 },
+    { "name": "Akershus", "code": 02 },
+    { "name": "Oslo", "code": 03 },
+    { "name": "Hedmark", "code": 04 },
+    { "name": "Oppland", "code": 05 },
+    { "name": "Buskerud", "code": 06 },
+    { "name": "Vestfold", "code": 07 },
+    { "name": "Telemark", "code": 08 },
+    { "name": "Aust-Agder", "code": 09 },
+    { "name": "Vest-Agder", "code": 10 },
+    { "name": "Rogaland", "code": 11 },
+    { "name": "Hordaland", "code": 12 },
+    { "name": "Sogn og Fjordane", "code": 14 },
+    { "name": "Møre og Romsdal", "code": 15 },
+    { "name": "Sør-Trøndelag", "code": 16 },
+    { "name": "Nord-Trøndelag", "code": 17 },
+    { "name": "Nordland", "code": 18 },
+    { "name": "Troms", "code": 19 },
+    { "name": "Finnmark", "code": 20 },
+    { "name": "Svalbard", "code": 21 },
+    { "name": "Jan Mayen", "code": 22 },
+    { "name": "Kontinentalsokkelen", "code": 23 }
+  ]
+}
